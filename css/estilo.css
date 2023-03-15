@@ -1,0 +1,115 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+#container {
+  width: 100%;
+  background: linear-gradient(yellow, orange, #ff4500, orange, yellow);
+}
+#topo {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background: #fffc59;
+  border: solid #7a0606;
+}
+div#topo {
+  text-align: center;
+}
+#menu {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#menu a,
+#menu a:visited {
+  text-decoration: none;
+  color: #7a0606;
+  padding: 1% 2%;
+  margin: 2%;
+  font-size: 120%;
+  display: block;
+}
+#menu a:hover {
+  background: #7a0606;
+  color: #fffc59;
+  border: 2px solid black;
+}
+#menu a.change {
+  background: #7a0606;
+  color: #fffc59;
+  border: 2px solid black;
+}
+p a {
+  text-decoration: none;
+  color: #fffc59;
+  background: #7a0606;
+  padding: 1%;
+}
+/*Corpo do Site*/
+#coluna {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Imagens no centro*/
+
+img {
+  margin: auto;
+  display: block;
+  width: 60%;
+}
+#separador img {
+  display: block;
+  margin: 0;
+  width: 100%;
+}
+#coluna img {
+  border: solid #7a0606;
+}
+img.cardapio {
+  float: left;
+  height: 10%;
+  width: 10%;
+  margin-bottom: 10%;
+  display: block;
+}
+
+/*Rodapé*/
+
+#rodape {
+  padding: 3%;
+  color: cornsilk;
+  font-size: 1em;
+  background-color: black;
+  opacity: 0.5;
+}
+
+/*Links dos cardapios*/
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+ul li {
+  margin-bottom: 5%;
+}
+ul li a {
+  text-decoration: none;
+  color: black;
+}
+ul li a img {
+  float: left;
+  width: 15%;
+}
+ul li h3,
+ul li p {
+  padding-left: 20%;
+}
+
+.limpar {
+  clear: both;
+}
