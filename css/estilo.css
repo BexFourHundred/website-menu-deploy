@@ -1,16 +1,28 @@
 body {
   font-family: "Times New Roman", Times, serif;
 }
+/*CORES ABANORTE
+
+#fdd500 - amarela
+#45101b - roxa
+#e34d49 - salmão
+#eedeba - salmão claro
+
+*/
+
 #container {
   width: 100%;
-  background: linear-gradient(yellow, orange, #ff4500, orange, yellow);
+  /*background: linear-gradient(yellow, orange, #ff4500, orange, yellow);*/
+  background: linear-gradient(#fdd500, #eedeba, #e34d49);
 }
 #topo {
   width: 80%;
   margin-left: auto;
   margin-right: auto;
-  background: #fffc59;
-  border: solid #7a0606;
+  /*background: #fffc59;
+  border: solid #7a0606;*/
+  background: #fdd500;
+  border: solid #45101b;
 }
 div#topo {
   text-align: center;
