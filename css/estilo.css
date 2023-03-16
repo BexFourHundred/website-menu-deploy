@@ -21,7 +21,7 @@ body {
   margin-right: auto;
   /*background: #fffc59;
   border: solid #7a0606;*/
-  background: #fdd500;
+  background: linear-gradient(to right, #fdd500, #eedeba, #fdd500);
   border: solid #45101b;
 }
 div#topo {
@@ -38,27 +38,40 @@ div#topo {
 #menu a,
 #menu a:visited {
   text-decoration: none;
-  color: #7a0606;
+  /*color: #7a0606;*/
+  color: #45101b;
   padding: 1% 2%;
   margin: 2%;
   font-size: 120%;
   display: block;
 }
 #menu a:hover {
-  background: #7a0606;
+  /*background: #7a0606;
   color: #fffc59;
-  border: 2px solid black;
+  border: 2px solid black;*/
+  background: #45101b;
+  color: #fdd500;
+  border: 2px solid #eedeba;
 }
 #menu a.change {
-  background: #7a0606;
+  /*background: #7a0606;
   color: #fffc59;
-  border: 2px solid black;
+  border: 2px solid black;*/
+  background: #45101b;
+  color: #fdd500;
+  border: 2px solid #eedeba;
 }
 p a {
   text-decoration: none;
-  color: #fffc59;
-  background: #7a0606;
+  /*color: #fffc59;
+  background: #7a0606;*/
+  background: #45101b;
+  color: #fdd500;
   padding: 1%;
+}
+p a:hover {
+  background: #fdd500;
+  color: #45101b;
 }
 /*Corpo do Site*/
 #coluna {
