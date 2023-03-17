@@ -95,7 +95,7 @@ img {
 #coluna img {
   border: solid #7a0606;
 }
-img.cardapio {
+body ul li a img.cardapio {
   float: left;
   height: 10%;
   width: 10%;
