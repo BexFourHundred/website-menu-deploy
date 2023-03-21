@@ -73,6 +73,16 @@ p a:hover {
   background: #fdd500;
   color: #45101b;
 }
+
+p a.ebook {
+  color: blue;
+  background: none;
+}
+p a.ebook:hover {
+  color: #45101b;
+  background: none;
+}
+
 /*Corpo do Site*/
 #coluna {
   width: 80%;
