@@ -139,7 +139,8 @@ ul li a {
 }
 ul li a img {
   float: left;
-  width: 15%;
+  height: 60px;
+  width: 100px;
 }
 ul li h3,
 ul li p {
