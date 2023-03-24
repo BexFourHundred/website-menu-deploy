@@ -1,5 +1,5 @@
 body {
-  font-family: "Times New Roman", Times, serif;
+  /*font-family: "Times New Roman", Times, serif;*/
 }
 /*CORES ABANORTE
 
@@ -21,8 +21,9 @@ body {
   margin-right: auto;
   /*background: #fffc59;
   border: solid #7a0606;*/
-  background: linear-gradient(to right, #fdd500, #eedeba, #fdd500);
-  border: solid #45101b;
+  /*background: linear-gradient(to right, #fdd500, #eedeba, #fdd500);*/
+  /*background: #fdd500;*/
+  /*border: solid #45101b;*/
 }
 div#topo {
   text-align: center;
